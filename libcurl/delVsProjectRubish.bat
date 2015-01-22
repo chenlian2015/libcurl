@@ -1,0 +1,1 @@
+del   /q  /s "*.hpj"  "*.sdf"  "*.aps" "*.log" "*.tlog" "*.lastbuildstate" "*.manifest" "*.cache" "*.ncb" "*.opt" "*.pdb" "*.pch" "*.mdp" "*.plg" "*.obj" "*.exp" "*.bsc" "*.clw" "*.res" "*.sbr" "*.ilk" "*.idb" "*.ipch" ".bak"

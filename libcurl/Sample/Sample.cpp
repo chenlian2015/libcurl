@@ -151,7 +151,7 @@ int main(int argc, char *argv[])
 
 	// Initialize CURL connection
 
-	if (!init(conn, "http://www.baidu.com"))
+	if (!init(conn, "http://www.google.com/#q=test"))
 	{
 		fprintf(stderr, "Connection initializion failed\n");
 

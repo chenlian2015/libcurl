@@ -231,10 +231,12 @@ static void main_free(struct GlobalConfig *config)
 */
 int main(int argc, char *argv[])
 {
+	int x;
+
   CURLcode result = CURLE_OK;
   struct GlobalConfig global;
   memset(&global, 0, sizeof(global));
-
+    scanf("%d", &x);
   main_checkfds();
 
 #if defined(HAVE_SIGNAL) && defined(SIGPIPE)
